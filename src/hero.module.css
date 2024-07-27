@@ -1,0 +1,41 @@
+.section {
+  height: 406px;
+  background-color: #495e57;
+}
+.border {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 5px 39px;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+.info h1 {
+  color: #f4ce14;
+  font-family: 'Markazi Text', sans-serif;
+  font-size: 60px;
+  margin: 0;
+}
+.info h3 {
+  color: white;
+  font-family: 'Markazi Text', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+.info p {
+  font-weight: 500;
+  line-height: 140%;
+  color: white;
+}
+.img {
+  display: flex;
+  border-radius: 24px;
+  transform: translateY(30px);
+}

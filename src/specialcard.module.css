@@ -1,0 +1,54 @@
+.card {
+  border-radius: 16px;
+  background: #edefee;
+  width: 264px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card:active {
+  transform: scale(0.95);
+}
+.card img {
+  border-radius: 16px 16px 0px 0px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 90%;
+}
+.price {
+  color: #ee9972;
+  font-family: Karla, serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.head_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #495e57;
+}
+.info {
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.order {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.order p {
+  font-size: 16px;
+  font-weight: 700;
+}

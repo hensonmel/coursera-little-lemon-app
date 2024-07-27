@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  background-color: #495e57;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  text-align: right;
+}
+
+footer div {
+  flex: 1;
+  padding: 1rem;
+}

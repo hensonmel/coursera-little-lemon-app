@@ -1,0 +1,30 @@
+.button {
+  width: 204px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  background: #f4ce14;
+  border-radius: 16px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.button .text {
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  background: #a50000;
+}
+.button:hover .text {
+  color: #edefee;
+}
+.button:active {
+  transform: scale(0.7);
+}
