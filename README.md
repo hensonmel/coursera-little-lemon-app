@@ -1,8 +1,8 @@
 # @hnsnml.co/coursera-little-lemon-app
 
-Peer-graded Assignment: Booking a table on the Little Lemon website
+Meta Front-End Developer Capstone: Booking a table on the Little Lemon website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Demo](https://coursera-little-lemon-app.vercel.app/)
 
 ## License
 
