@@ -6,4 +6,4 @@ Meta Front-End Developer Capstone: Booking a table on the Little Lemon website
 
 ## License
 
-Licensed under the [MIT license](https://github.com/hensonmel/coursera-little-lemon-app/blob/master/LICENSE.md).
+Licensed under the [MIT license](https://github.com/hensonmel/coursera-little-lemon-app/blob/main/LICENSE.md).
