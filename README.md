@@ -2,7 +2,7 @@
 
 Meta Front-End Developer Capstone: Booking a table on the Little Lemon website
 
-[Live Demo](https://coursera-little-lemon-app.vercel.app/)
+[Live Demo](https://coursera-little-lemon-app.netlify.app/)
 
 ## License
 
