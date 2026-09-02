@@ -3,7 +3,6 @@ import { useState } from "react";
 
 const BookingPage = () => {
   const currentDate = new Date().toISOString().split('T')[0];
-  const [currentStep, setCurrentStep] = useState(1)
   const [inputDateType, setInputDateType] = useState('text');
   const [inputStartTimeType, setInputStartTimeType] = useState('text');
   const [inputDurationTimeType, setInputDurationTimeType] = useState('text');

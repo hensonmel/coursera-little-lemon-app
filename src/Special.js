@@ -10,7 +10,7 @@ const SpecialSection = () => {
     <section className={style.section} id='specialSection'>
       <div className={style.border}>
         <div className={style.head}>
-          <h2>This weeks specials</h2>
+          <h2>This week's specials</h2>
           <Button text={'Online Order'}></Button>
         </div>
         <div className={style.specialcards}>

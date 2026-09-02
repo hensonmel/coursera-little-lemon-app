@@ -1,5 +1,4 @@
 import style from './specialcard.module.css';
-// import { IoIosBicycle } from "react-icons/io";
 
 const SpecialCard = (props) => {
   return (
@@ -13,7 +12,6 @@ const SpecialCard = (props) => {
         <p className={style.info_text}>{props.text}</p>
         <div className={style.order}>
           <p>Order a delivery</p>
-          {/* <IoIosBicycle size={22} /> */}
         </div>
       </div>
     </div>

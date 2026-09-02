@@ -1,16 +1,20 @@
 import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 import App from './App';
-import BookingPage from "./screens/BookingPage";
+import BookingPage from './BookingPage';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders the Little Lemon hero heading', () => {
+  render(
+    <MemoryRouter initialEntries={['/']}>
+      <App />
+    </MemoryRouter>
+  );
+  const headings = screen.getAllByText(/little lemon/i);
+  expect(headings.length).toBeGreaterThan(0);
 });
 
-const availableTimes = ["17:00", "17:30", "18:00"];
-test("renders the BookingForm heading", () => {
-  render(<BookingPage availableTimes={availableTimes} />);
-  const headingElement = screen.getByText("Booking Page");
+test('renders the BookingPage reservation heading', () => {
+  render(<BookingPage />);
+  const headingElement = screen.getByRole('heading', { name: /reservation/i });
   expect(headingElement).toBeInTheDocument();
 });
