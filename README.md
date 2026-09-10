@@ -1,4 +1,4 @@
-# @hnsnml.co/coursera-little-lemon-app
+# coursera-little-lemon-app
 
 Meta Front-End Developer Capstone: Booking a table on the Little Lemon website
 
